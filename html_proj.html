@@ -1,0 +1,33 @@
+<!DOCTRINE html>
+<head>
+<meta charset='UTF-8'>
+<title> HTML PROJECT</title>
+</head>
+<body>
+<form method="" action="register">
+<table border="1" align="center">
+<caption> Form </caption>
+<tr><th> Enter ID: </th>
+<td><input type="text" name="ID" placeholder="Your ID Here" required pattern="[A-Z][0-9]{1,6}"></td>
+<tr><th> Enter Name: </th>
+<td><input type="text" name="name" placeholder="Your Name Here" required pattern="[A-Z][a-z]*"></td>
+<tr><th> Enter Age: </th>
+<td><input type="text" name="age" placeholder="Your Age 18-60" min="18" max="60"></td>
+<tr><th>Gender:</th>
+<td><input type="radio" name="gender" value="Male"/> Male
+<input type="radio" name="gender" value="female"/> Female</td>
+<tr><th> Enter Mobile: </th>
+<td><input type="text" name="mob" placeholder="Your Mobile Here" required pattern="[7-9][0-9]{1,9}"></td>
+<tr><th> Enter Location: </th>
+<td>
+<select>
+  <option value="Mumbai">Mumbai</option>
+  <option value="Pune">Pune</option>
+  <option value="Hyderabad">Hyderabad</option>
+  <option value="Noida">Noida</option>
+</select></td>
+<input type="submit" value="SUBMIT" align="center">
+</table>
+</form>
+</body>
+</html>
